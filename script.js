@@ -190,7 +190,7 @@ const checkUI = () => {
 		filter.style.display = 'block';
 	}
 
-	formBtn.innerHTML = '<i class="fa-solid fa-plus"> </i> Edit Item ';
+	formBtn.innerHTML = '<i class="fa-solid fa-plus"> </i> Add Item ';
 	formBtn.style.backgroundColor = 'black';
 	formBtn.style.color = 'white';
 };
