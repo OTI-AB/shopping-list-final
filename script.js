@@ -110,6 +110,7 @@ const checkForDuplicate = (item) => {
 		if (iLower === item.toLowerCase()) {
 			isDuplicate = true;
 			alert('This item is already in you list');
+			itemInput.value = '';
 		}
 	});
 };
